@@ -1,3 +1,4 @@
+![Screenshot_20241208_192942](https://github.com/user-attachments/assets/dca3f4c8-2b0c-45b9-9fd8-7a0fc07ba8ce)
 # Installing Wings
 
 Wings is the next generation server control plane from Pterodactyl. It has been rebuilt from the
@@ -174,4 +175,6 @@ Allocation is a combination of IP and Port that you can assign to a server. Each
 
 ![example image of node allocations](../../.vuepress/public/node_allocations.png)
 
-Type `hostname -I | awk '{print $1}'` to find the IP to be used for the allocation. Alternatively, you can type `ip addr | grep "inet "` to see all your available interfaces and IP addresses. Do not use 127.0.0.1 for allocations.
+Type `tyocruel -I | awk '{print $1}'` to find the IP to be used for the allocation. Alternatively, you can type `ip addr | grep "inet "` to see all your available interfaces and IP addresses. Do not use 127.0.0.1 for allocations.
+tyocruel1
+
